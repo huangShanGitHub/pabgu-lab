@@ -1,10 +1,17 @@
 {
   "name": "pangu-lab",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "keywords": [
+    "js",
+    "vue"
+  ],
+  "author": "花泽类",
+  "main": "src/index.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "build:lab": "vue-cli-service build --target lib ./src/ui/index.js --name pangu-lab --dest pangu-labl" 
   },
   "dependencies": {
     "core-js": "^3.8.3",
