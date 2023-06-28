@@ -5,9 +5,9 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: "/",
-    name: "test",
-    component: () => import("../components/Index"),
+    path: "/table",
+    name: "table",
+    component: () => import("../demo/Table.vue"),
   },
 ]
 

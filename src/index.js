@@ -1,4 +1,4 @@
-import Test from "../src/components/Index.vue" //引入模态框组件
+import PgTable from "../src/components/table/Pg-table.vue" //引入模态框组件
 const coms = [Test] //将来如果有其它组件,都可以写到这个数组里
 
 //批量组件注册
